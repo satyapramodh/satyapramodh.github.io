@@ -1,0 +1,49 @@
+.homepage{
+    color: #fff;
+}
+
+.homepage .section-left, .homepage .section-right{
+    height: 100%;
+    overflow: hidden;
+}
+
+.homepage .super-menu{
+    display: inline-block;
+    padding: 10px;
+    background-size: 250% 100%;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.5) 50%, transparent 50%);
+    -webkit-transition: background-position 1s;
+    -moz-transition: background-position 1s;
+    transition: background-position 1s;
+}
+
+.homepage .super-menu:hover{
+    background-position: -75% 0;
+}
+
+.homepage ul{
+    list-style-type: none;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.homepage ul li{
+    padding: 0px;
+    margin: 0;
+    display: block;
+}
+
+.homepage ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-left{
+    background-color: #8BC34A;
+    border-right: 1px solid #ccc;
+}
+
+.section-right{
+    background-color: #26C6DA;
+    border-left: 1px solid #ccc;
+}
