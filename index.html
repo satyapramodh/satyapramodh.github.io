@@ -1,20 +1,51 @@
 <html>
   <head>
-    <title>Pramodh</title>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107278931-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
 
+      gtag('config', 'UA-107278931-1');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pramodh</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
       crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-      crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
-    <script type="text/javascript" src="index.js"></script>
   </head>
 
   <body>
-    <div>
-      <div class="intro">
+    <nav id="navbar" class="navbar navbar-light">
+      <a class="navbar-brand" href="/">
+        <div class="small-img">
+          <img src="https://www.gravatar.com/avatar/de3c5580970c50b7678dcf510478a47f?s=150" alt="Pramodh">
+        </div>
+        Pramodh
+      </a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#intro">Intro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+      </ul>
+    </nav>
+
+
+    <div class="site-content" data-spy="scroll" data-target="#navbar" data-offset="0" id="myScrollspy">
+
+      <!-- intro -->
+      <div class="intro" id="intro">
         <div class="container">
           <div class="profile-img">
             <img src="https://www.gravatar.com/avatar/de3c5580970c50b7678dcf510478a47f?s=150" alt="Pramodh">
@@ -54,7 +85,127 @@
         </div>
       </div>
 
-      <div class="section">
+      <!-- experience -->
+      <div class="section" id="experience">
+        <div class="text-center">
+          <h2 class="display-4">
+            Experience
+          </h2>
+        </div>
+      </div>
+
+      <div class="experience">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Student Developer</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Arizona State University</h6>
+                  <p class="card-text">Student Developer at Global Outreach and Extended Education.</p>
+                  <h6 class="card-subtitle mb-2 text-muted">Nov 2016 - Present</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Freelancer</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Looksmash</h6>
+                  <p class="card-text">Technical Advisor, Lead Developer</p>
+                  <h6 class="card-subtitle mb-2 text-muted">May 2015 - June 2016</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Software Developer</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Codebrahma</h6>
+                  <p class="card-text">
+                    <p>My duties involved project management, meeting and gathering requirements from clients, designing and developing web apps
+                    and their APIs, testing, deploying and maintenance.</p>
+                    <p>
+                      Developed a ‘job and user recommendation engine’ for a job portal and its sister site (an applicant tracking system) using
+                      k means clustering to identify similar groups.
+                    </p>
+                    <p>
+                      Built the core backend functionality of the job portal and ATS with payment system (Stripe) along with frontend, TDD (unit
+                      testing using Rspec). Used Ruby on Rails, Postgres, Neo4j, Redis and AngularJS. Built internal search
+                      with Solr.
+                    </p>
+                    <p>
+                      Built a slack clone on top of an open source real time chat application (rocket chat) to accommodate for teams, integrations
+                      (bots) for Github, Twitter, Stripe (via webhooks) on MeteorJS and MongoDB.
+                    </p>
+                    <p>
+                      Developed a product discovery platform with a tag based search functionality and product price retrieval using PhantomJS,
+                      IsotopeJS, Meteor JS and MongoDB.
+                    </p>
+
+                  </p>
+                  <h6 class="card-subtitle mb-2 text-muted">June 2014 - Mar 2016</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Software Developer Intern</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Codebrahma</h6>
+                  <p class="card-text">Full stack web development, TDD, deploying and maintenance</p>
+                  <h6 class="card-subtitle mb-2 text-muted">Dec 2013 - May 2014</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Software Developer Intern</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">State Bank of India</h6>
+                  <p class="card-text">Intranet Site: Redesigned and developed intranet site from scratch.
+                    Developed an efficient website by implementing jQuery, AJAX and Oracle SQL to not only reduce
+                    server load but also reduce bandwidth usage(As the site gets 20k+ page views each day).
+                    A cross browser compatible site which works seamlessly on IE7 to the latest versions of Firefox, Chrome etc.</p>
+                  <h6 class="card-subtitle mb-2 text-muted">Jun 2013 - Jul 2013</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Event Coordinator</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">IEEE VIT Student Branch</h6>
+                  <p class="card-text"> Also held designer position (2010), web admin position (2011). Conducted seminar on PHP.</p>
+                  <h6 class="card-subtitle mb-2 text-muted">Aug 2010 - Apr 2012</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Chief Graphic Designer</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Actonate</h6>
+                  <p class="card-text">Designed many banners, posters and actively participated in their Web Design team.</p>
+                  <h6 class="card-subtitle mb-2 text-muted">Sept 2010 - May 2011</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <!-- portfolio -->
+      <div class="section" id="portfolio">
         <div class="text-center">
           <h2 class="display-4">
             Portfolio
@@ -171,5 +322,17 @@
         </div>
       </div>
     </div>
+
+
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js">
+    </script>
   </body>
 </html>
