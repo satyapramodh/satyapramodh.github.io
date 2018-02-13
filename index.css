@@ -23,12 +23,12 @@ a{
 .site-content{
   height: 100%;
   position: relative;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
-.site-content::-webkit-scrollbar {
+/* .site-content::-webkit-scrollbar {
     display: none;
-}
+} */
 
 .intro, .portfolio, .experience{
   margin: 100px auto;
@@ -36,9 +36,8 @@ a{
 }
 
 nav{
-  background-color: transparent;
+  background-color: white;
   border-bottom: 1px solid #ccc;
-  display: none;
   transition: 0.3s all fade-out;
 }
 
@@ -127,6 +126,7 @@ nav{
 .section .display-4{
   color: white;
   text-shadow: 0 10px 10px rgba(0,0,0,0.12), 0 1px 5px rgba(0,0,0,0.24);
+  margin-top: 80px;
 }
 
 /* portfolio items */
@@ -172,7 +172,7 @@ nav{
   text-decoration: none;
 }
 
-
+/* experience */
 .experience .card{
   box-shadow: 0 1px 5px rgba(0,0,0,0.12);
   border: 0;

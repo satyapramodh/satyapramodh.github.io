@@ -30,8 +30,8 @@
   </head>
 
   <body>
-    <nav id="navbar" class="navbar navbar-light" style="display:none;">
-      <a class="navbar-brand" href="/">
+    <nav id="navbar" class="navbar navbar-light">
+      <a class="navbar-brand" href="index.html">
         <div class="small-img">
           <img src="https://www.gravatar.com/avatar/de3c5580970c50b7678dcf510478a47f?s=150" alt="Pramodh">
         </div>
@@ -39,19 +39,19 @@
       </a>
       <ul class="nav nav-pills">
         <li class="nav-item">
-          <a class="nav-link" href="#intro">Intro</a>
+          <a class="nav-link active" href="index.html">Intro</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="experience.html">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
       </ul>
     </nav>
 
 
-    <div class="site-content" data-spy="scroll" data-target="#navbar" data-offset="0" id="myScrollspy">
+    <div class="site-content">
 
       <!-- intro -->
       <div class="intro" id="intro">
@@ -97,7 +97,7 @@
 
             <p class="lead">
               I am a Computer Science Grad Student currently studying at ASU.
-              A Full Stack Developer with <a href="#cb-blore"><i>two years</i></a> experience at a startup.
+              A Full Stack Developer with <a href="experience.html/#cb-blore"><i>two years</i></a> experience at a startup.
               I am super enthusiastic about Technology, Sci-Fi, startups,
               <a href="https://www.goodreads.com/user/show/29854608-pramodh" target="_blank">books</a>.
               Currently looking for Full time opportunities for Summer 18.</p>
@@ -105,348 +105,6 @@
         </div>
       </div>
 
-      <!-- experience -->
-      <div class="section" id="experience">
-        <div class="text-center">
-          <h2 class="display-4">
-            Experience
-          </h2>
-        </div>
-      </div>
-
-      <div class="experience">
-        <div class="container">
-
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Student Developer</h4>
-                  <h6 class="card-subtitle mb-2 text-muted">Arizona State University</h6>
-                  <h6 class="card-subtitle mb-2 text-muted">Nov 2016 - Present</h6>
-                  <p class="card-text">
-                    Student Developer at Global Outreach and Extended Education (GOEE) > Involved in designing, development and maintenance
-                    of ASU's GOEE sites mainly using Drupal, JavaScript, SCSS.
-                    <ul class="list-unstyled">
-                      <li>Built style guides and documentations for all active web projects for easy management.</li>
-                      <li>
-                        Updated most of the active projects from CSS, LESS to consistent SCSS styles with emphasis on responsiveness, accessibility,
-                        device and media type friendliness.
-                      </li>
-                    </ul>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12">
-              <div class="card" id="looksmash">
-                <div class="card-body">
-                  <h4 class="card-title">Freelancer</h4>
-                  <h6 class="card-subtitle mb-2 text-muted">Looksmash</h6>
-                  <h6 class="card-subtitle mb-2 text-muted">May 2015 - June 2016</h6>
-                  <p class="card-text">
-                    <i>Technical Advisor:</i> <br>
-                    Advising on the tech stack and development strategies for the product during its infancy.
-                    <br><br>
-
-                    <i>Lead Developer:</i>
-                    <ul class="list-unstyled">
-                      <li>Worked mainly on the backend infrastructure and APIs and some parts of frontend</li>
-                      <li>Handled deployments to AWS and project management.</li>
-                    </ul>
-
-                    Technologies used: <br>
-                    Ruby on Rails, Angular JS, Postgres, SCSS <br>
-                    AWS: EC2, S3, RDS
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-12">
-              <div class="card" id="cb-blore">
-                <div class="card-body">
-                  <h4 class="card-title">Software Developer</h4>
-                  <h6 class="card-subtitle mb-2 text-muted">Codebrahma</h6>
-                  <h6 class="card-subtitle mb-2 text-muted">June 2014 - Mar 2016</h6>
-                  <p class="card-text">
-                    <p>My duties involved project management, meeting and gathering requirements from clients, designing and developing web apps
-                    and their APIs, unit testing, deploying and maintenance.</p>
-                    <p>Developed a 'job recommendation engine' and 'user recommendation engine' for a job portal and its sister site (an applicant tracking system) using k means clustering to identify similar user and job groups based on their text data obtained from description, skill fields.</p>
-
-                    <i>Job Portal/ATS</i>
-                      <ul class="list-unstyled">
-                        <li>
-                          Built the core backend functionality of the job portal and ATS along with integrations to payment system (Stripe), sms service (Twilio) and internal search with Solr.
-                        </li>
-                        <li>
-                          Built the frontend to be a single page application (SPA) using angular JS.
-                        </li>
-                        <li>
-                          Job recommendation, tracking, user profile management, job alert emails, newsletters
-                        </li>
-                        <li>
-                          Analytics tools for companies to track their jobs, user data and other stats.
-                        </li>
-                        <li>
-                          Monthly subscription management Used Ruby on Rails, Postgres, Neo4j, Redis and AngularJS, Unit testing (TDD) using Rspec.
-                        </li>
-                      </ul>
-
-                      <i>Slack Clone</i>
-                      <ul class="list-unstyled">
-                        <li>
-                          Built features like teams and their member payment subscription system, (bots) integrations for Github, Twitter, Stripe (via webhooks) for the slack clone on top of an open source real time chat application (Rocket.Chat).
-                        </li>
-                        <li>
-                           Built Meteor methods (RPC) for mobile clients using DDP, web sockets.
-                        </li>
-                      </ul>
-
-                      <i>Pinterest Clone</i>
-                      <ul class="list-unstyled">
-                        <li>Developed a product discovery platform for an international shopping site with a tag based search functionality and product price retrieval from various sources using PhantomJS, IsotopeJS, Meteor JS and MongoDB.</li>
-                      </ul>
-
-                      <i>University social network</i> <small>(This platform evolved into a job portal)</small>
-                      <p>
-                         Developed a social network platform for major universities in india with capabilities such as
-                      </p>
-                      <ul class="list-unstyled">
-                        <li>
-                          Social feeds with personalized feed populating from custom news sources (RSS) feeds, friend feeds and shared posts, polls, rich link sharing.
-                        </li>
-                        <li>
-                          Messaging service
-                        </li>
-                        <li>In-house survey tool</li>
-                      </ul>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-12">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Software Developer Intern</h4>
-                  <h6 class="card-subtitle mb-2 text-muted">Codebrahma</h6>
-                  <h6 class="card-subtitle mb-2 text-muted">Dec 2013 - May 2014</h6>
-                  <p class="card-text">
-                    Full stack web development, TDD, deploying and maintenance
-                    <ul class="list-unstyled">
-                      <li>
-                        Learning tools for full stack development.
-                      </li>
-                      <li>
-                        Involved in building a coaching platform for clients.
-                      </li>
-                      <li>
-                         Built user login and profile management system.
-                      </li>
-                      <li>
-                         Built client and coaching relationship modules
-                      </li>
-                    </ul>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-12">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Software Developer Intern</h4>
-                  <h6 class="card-subtitle mb-2 text-muted">State Bank of India</h6>
-                  <h6 class="card-subtitle mb-2 text-muted">Jun 2013 - Jul 2013</h6>
-                  <p class="card-text">
-                     <i>Intranet Site:</i>
-                     <ul class="list-unstyled">
-                       <li>
-                         Redesigned and developed intranet site from scratch for cross platform and cross browser compatibility to work seamlessly on IE7 to the latest versions of Firefox, Chrome etc..
-                       </li>
-                       <li>
-                         Developed an efficient website by implementing jQuery, AJAX and Oracle SQL to not only reduce server load but also reduce bandwidth usage. (The site gets 20k+ page views each day).
-                       </li>
-                       <li>Learn web security concepts like sql injection</li>
-                     </ul>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-12">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Event Coordinator</h4>
-                  <h6 class="card-subtitle mb-2 text-muted">IEEE VIT Student Branch</h6>
-                  <h6 class="card-subtitle mb-2 text-muted">Aug 2010 - Apr 2012</h6>
-                  <p class="card-text">
-                    <p>Also held designer position (2010), web admin position (2011).</p>
-
-                    <ul class="list-unstyled">
-                      <li>
-                        Designed posters for various IEEE events within campus.
-                      </li>
-                      <li>
-                         Conducted seminar on PHP basics.
-                      </li>
-                      <li>Managed IEEE student chapter website.</li>
-                    </ul>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-12">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Chief Graphic Designer</h4>
-                  <h6 class="card-subtitle mb-2 text-muted">Actonate</h6>
-                  <h6 class="card-subtitle mb-2 text-muted">Sept 2010 - May 2011</h6>
-                  <p class="card-text">Designed many banners, posters and actively participated in their Web Design team.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-
-
-      <!-- portfolio -->
-      <div class="section" id="portfolio">
-        <div class="text-center">
-          <h2 class="display-4">
-            Portfolio
-          </h2>
-        </div>
-      </div>
-
-      <div class="portfolio">
-        <div class="container">
-
-          <div class="row">
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <a href="/web-experiments/realtime-charts.html" target="_blank">
-                <div class="item">
-                  <div class="thumbnail">
-                    <img src="images/realtime-graphs.png" alt="Realtime chart">
-                  </div>
-                  <div class="content">
-                    <b>Web Experiments/Realtime charts</b> <br>
-                    <p>Testing realtime charts using charts.js</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <a href="https://github.com/satyapramodh/galvanize-hackathon2017" target="_blank">
-                <div class="item">
-                  <div class="thumbnail">
-                    <img src="images/aframe-ar.png" alt="WebVR using Aframe">
-                  </div>
-                  <div class="content">
-                    <b>Hackathon/galvanize 2017</b> <br>
-                    <p>Experimenting WebVR/AR and Three.js capabilities during the galvanize AZ hack day</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <a href="https://github.com/satyapramodh/securemyworld" target="_blank">
-                <div class="item">
-                  <div class="thumbnail">
-                    <img src="images/android.png" alt="Android app">
-                  </div>
-                  <div class="content">
-                    <b>Hackathon/Android/Secure my world</b> <br>
-                    <p>Android app to evaluate emotion of person by detecting anger or depression and use the info to alert
-                      emergency services to proactively handle the situation.</p>
-                    <!-- Todo: Set this up on IOT cameras using AndroidThings -->
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <a href="https://github.com/satyapramodh/securemyworldbot" target="_blank">
-                <div class="item">
-                  <div class="thumbnail">
-                    <img src="images/bot-framework.png" alt="Bot Framework">
-                  </div>
-                  <div class="content">
-                    <b>Hackathon/Bot/911</b> <br>
-                    <p>The new 911 bot. Companion bot for secure my world. Built with Microsoft Bot Framework.</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <a href="/flexbox-timeline/timeline.html" target="_blank">
-                <div class="item">
-                  <div class="thumbnail">
-                    <img src="images/flextimeline.png" alt="Flexbox timeline">
-                  </div>
-                  <div class="content">
-                    <b>Web Experiments/Flexbox timeline</b> <br> Using css flexbox to create a timeline view
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <a href="https://github.com/satyapramodh/unit-converter" target="_blank">
-                <div class="item">
-                  <div class="thumbnail">
-                    <img src="images/android.png" alt="Unit converter Android App">
-                  </div>
-                  <div class="content">
-                    <b>Android/Unit Converter</b> <br>
-                    <p>Basic calculator, offline curreny converter, weight converter</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <a href="https://web.archive.org/web/20130925184757/http://www.vitgravitas.com:80/" target="_blank">
-                <div class="item">
-                  <div class="thumbnail">
-                    <img src="images/gravitas13_logo.png" alt="GraVITas 2013 Tech fest site">
-                  </div>
-                  <div class="content">
-                    <b>Web/Gravitas 2013 tech fest</b> <br>
-                    <p>Developed VIT university's tech fest site in 2013</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <a href="https://github.com/satyapramodh/supermarket-management" target="_blank">
-                <div class="item">
-                  <div class="thumbnail">
-                    <img src="images/estore.jpg" alt="Supermarket Management system">
-                  </div>
-                  <div class="content">
-                    <b>Supermarket Management system</b> <br>
-                    <p>Make sales which automatically update inventory, reorder supplies,
-                       billing, salary, customer and employee managements.</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-
-          </div>
-        </div>
-      </div>
     </div>
 
 
