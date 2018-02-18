@@ -54,6 +54,10 @@ nav{
   margin-bottom: 15px;
 }
 
+.intro .site-links a{
+  margin: 5px 10px;
+}
+
 .social{
   margin: 15px 0;
 }
