@@ -35,11 +35,11 @@ header_pages:
   - blog.html
   - portfolio.html
 
-urls:
-  - text: About
-    url: /
-  - text: Blog
-    url: /blog
+# urls:
+#   - text: About
+#     url: /
+#   - text: Blog
+#     url: /blog
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -63,7 +63,8 @@ exclude:
 
 # defaults
 defaults:
-  - scope:  
+  - 
+    scope:  
       path: ""
     values:
       layout: "home"
