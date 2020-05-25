@@ -1,2 +1,6 @@
 # blog
-my blog
+
+# Commands
+
+    jekyll build
+    jekyll serve
