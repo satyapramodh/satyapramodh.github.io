@@ -1,0 +1,27 @@
+// .site-nav{
+//     line-height: 18px;
+// }
+
+.avatar{
+    border-radius: 50%;
+    box-shadow: 3px 5px 8px 0px;
+}
+
+.about{
+    @media (min-device-width : 768px){
+        .col, .col-12{
+            margin: 30px auto;
+        }
+        .title-name{
+            h2{
+                margin: 20% auto;
+            }
+        }   
+    }    
+
+    @media (max-device-width : 767px){
+        .col, .col-12{
+            margin: 10px auto;
+        }
+    }
+}

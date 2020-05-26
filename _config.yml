@@ -23,6 +23,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-autoprefixer
 
 destination: ./build
 
@@ -44,7 +45,11 @@ minima:
     github: satyapramodh
     linkedin: satyapramodh
 
-  # urls:
+sass:
+  sass_dir: _sass
+  style: compressed
+
+    # urls:
 #   - text: About
 #     url: /
 #   - text: Blog
