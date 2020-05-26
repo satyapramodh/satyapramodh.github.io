@@ -5,6 +5,8 @@
     jekyll build
     jekyll serve
 
+    JEKYLL_ENV=production bundle exec jekyll build
+
 
 # satyapramodh.github.io
 Website for personal use
