@@ -34,7 +34,7 @@ author_profile_pic: "https://www.gravatar.com/avatar/de3c5580970c50b7678dcf51047
 # Navigation 
 header_pages:
   - blog.html  
-  - portfolio.html
+  - work.html
 
 disqus:
     shortname: pramodh-dev
